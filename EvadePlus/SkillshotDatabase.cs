@@ -2650,66 +2650,66 @@ namespace YasuoBuddy.EvadePlus
                 //        MissileSpellName = "ViQMissile"
                 //    }
                 //},
-                //new LinearMissileSkillshot //Unknown:
-                //{
-                //    SpellData = new SpellData
-                //    {
-                //        ChampionName = "Viktor",
-                //        SpellName = "ViktorDeathRay",
-                //        Slot = SpellSlot.E,
-                //        Delay = 0,
-                //        Range = 800,
-                //        Radius = 80,
-                //        MissileSpeed = 780,
-                //        DangerValue = 3,
-                //        MissileSpellName = "ViktorDeathRayMissile"
-                //    }
-                //},
-                //new LinearMissileSkillshot
-                //{
-                //    SpellData = new SpellData
-                //    {
-                //        ChampionName = "Viktor",
-                //        SpellName = "ViktorDeathRay3",
-                //        Slot = SpellSlot.E,
-                //        Delay = 500,
-                //        Range = 800,
-                //        Radius = 80,
-                //        MissileSpeed = 0,
-                //        DangerValue = 3,
-                //        MissileSpellName = "ViktorDeathRay3"
-                //    }
-                //},
-                //new LinearMissileSkillshot
-                //{
-                //    SpellData = new SpellData
-                //    {
-                //        ChampionName = "Viktor",
-                //        SpellName = "ViktorDeathRay2",
-                //        Slot = SpellSlot.E,
-                //        Delay = 0,
-                //        Range = 800,
-                //        Radius = 80,
-                //        MissileSpeed = 1500,
-                //        DangerValue = 3,
-                //        MissileSpellName = "ViktorDeathRayMissile2"
-                //    }
-                //},
-                //new CircularMissileSkillshot
-                //{
-                //    SpellData = new SpellData
-                //    {
-                //        ChampionName = "Viktor",
-                //        SpellName = "ViktorGravitonField",
-                //        Slot = SpellSlot.W,
-                //        Delay = 1500,
-                //        Range = 625,
-                //        Radius = 300,
-                //        MissileSpeed = 0,
-                //        DangerValue = 3,
-                //        MissileSpellName = "ViktorGravitonField"
-                //    }
-                //},
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        ChampionName = "Viktor",
+                        SpellName = "ViktorDeathRay",
+                        Slot = SpellSlot.E,
+                        Delay = 0,
+                        Range = 800,
+                        Radius = 80,
+                        MissileSpeed = 780,
+                        DangerValue = 3,
+                        MissileSpellName = "ViktorDeathRayMissile"
+                    }
+                },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        ChampionName = "Viktor",
+                        SpellName = "ViktorDeathRay3",
+                        Slot = SpellSlot.E,
+                        Delay = 500,
+                        Range = 800,
+                        Radius = 80,
+                        MissileSpeed = 0,
+                        DangerValue = 3,
+                        MissileSpellName = "ViktorDeathRay3"
+                    }
+                },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        ChampionName = "Viktor",
+                        SpellName = "ViktorDeathRay2",
+                        Slot = SpellSlot.E,
+                        Delay = 0,
+                        Range = 800,
+                        Radius = 80,
+                        MissileSpeed = 1500,
+                        DangerValue = 3,
+                        MissileSpellName = "ViktorDeathRayMissile2"
+                    }
+                },
+                new CircularMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        ChampionName = "Viktor",
+                        SpellName = "ViktorGravitonField",
+                        Slot = SpellSlot.W,
+                        Delay = 1500,
+                        Range = 625,
+                        Radius = 300,
+                        MissileSpeed = 0,
+                        DangerValue = 3,
+                        MissileSpellName = "ViktorGravitonField"
+                    }
+                },
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2862,21 +2862,21 @@ namespace YasuoBuddy.EvadePlus
                         MissileSpellName = "ZedQMissile"
                     }
                 },
-                //new CircularMissileSkillshot
-                //{
-                //    SpellData = new SpellData
-                //    {
-                //        ChampionName = "Zed",
-                //        SpellName = "ZedPBAOEDummy",
-                //        Slot = SpellSlot.E,
-                //        Delay = 0,
-                //        Range = 290,
-                //        Radius = 290,
-                //        MissileSpeed = 0,
-                //        DangerValue = 3,
-                //        MissileSpellName = "ZedPBAOEDummy"
-                //    }
-                //},
+                new CircularMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        ChampionName = "Zed",
+                        SpellName = "ZedPBAOEDummy",
+                        Slot = SpellSlot.E,
+                        Delay = 0,
+                        Range = 290,
+                        Radius = 290,
+                        MissileSpeed = 0,
+                        DangerValue = 3,
+                        MissileSpellName = "ZedPBAOEDummy"
+                    }
+                },
                 //new CircularMissileSkillshot
                 //{
                 //    SpellData = new SpellData
