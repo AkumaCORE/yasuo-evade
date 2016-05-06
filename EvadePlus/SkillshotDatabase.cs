@@ -1805,6 +1805,23 @@ namespace YasuoBuddy.EvadePlus
                 {
                     SpellData = new SpellData
                     {
+                        DisplayName = "Tormented Soil",
+                        ChampionName = "Morgana",
+                        SpellName = "MorgFissure",
+                        Slot = SpellSlot.W,
+                        Delay = 400,
+                        Range = 1100,
+                        Radius = 250,
+                        MissileSpeed = 0,
+                        DangerValue = 2,
+                        IsDangerous = false,
+                        MissileSpellName = "MorgFissure"
+                    }
+                },                
+                new CircularMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
                         DisplayName = "Aqua Prison",
                         ChampionName = "Nami",
                         SpellName = "NamiQ",
