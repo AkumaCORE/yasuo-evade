@@ -1807,7 +1807,7 @@ namespace YasuoBuddy.EvadePlus
                     {
                         DisplayName = "TormentedSoil",
                         ChampionName = "Morgana",
-                        SpellName = "MorgFissure",
+                        SpellName = "TormentedSoil",
                         Slot = SpellSlot.W,
                         Delay = 400,
                         Range = 1100,
@@ -1815,7 +1815,7 @@ namespace YasuoBuddy.EvadePlus
                         MissileSpeed = 0,
                         DangerValue = 2,
                         IsDangerous = false,
-                        MissileSpellName = "MorgFissure"
+                        MissileSpellName = "TormentedSoil"
                     }
                 },                
                 new CircularMissileSkillshot
