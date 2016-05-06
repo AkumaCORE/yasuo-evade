@@ -2879,10 +2879,28 @@ namespace YasuoBuddy.EvadePlus
                         MissileSpellName = "ZedQMissile"
                     }
                 },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "Shadow Clone",
+                        ChampionName = "Zed",
+                        SpellName = "ZedShadowDash",
+                        Slot = SpellSlot.W,
+                        Delay = 300,
+                        Range = 600,
+                        Radius = 70,
+                        MissileSpeed = 2500,
+                        DangerValue = 2,
+                        IsDangerous = false,
+                        MissileSpellName = "ZedShadowDashMissile"
+                    }
+                },
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
                     {
+                        DisplayName = "Shadow Slash",
                         ChampionName = "Zed",
                         SpellName = "ZedPBAOEDummy",
                         Slot = SpellSlot.E,
