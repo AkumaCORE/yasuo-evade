@@ -1805,7 +1805,7 @@ namespace YasuoBuddy.EvadePlus
                 {
                     SpellData = new SpellData
                     {
-                        DisplayName = "Tormented Soil",
+                        DisplayName = "TormentedSoil",
                         ChampionName = "Morgana",
                         SpellName = "MorgFissure",
                         Slot = SpellSlot.W,
