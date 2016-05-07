@@ -546,7 +546,7 @@ namespace YasuoBuddy.EvadePlus
                         Radius = 425,
                         MissileSpeed = 0,
                         DangerValue = 3,
-                        MissileSpellName = "DariusCleave"
+                        MissileSpellName = "DariusQCast"
                     }
                 },
                 new CircularMissileSkillshot
