@@ -533,21 +533,38 @@ namespace YasuoBuddy.EvadePlus
                         MissileSpellName = "MissileBarrageMissile"
                     }
                 },
-                //new CircularMissileSkillshot
-                //{
-                //    SpellData = new SpellData
-                //    {
-                //        ChampionName = "Darius",
-                //        SpellName = "DariusAxeGrabCone",
-                //        Slot = SpellSlot.E,
-                //        Delay = 320,
-                //        Range = 570,
-                //        Radius = 20,
-                //        MissileSpeed = 0,
-                //        DangerValue = 3,
-                //        MissileSpellName = "DariusAxeGrabCone"
-                //    }
-                //},
+                 new CircularMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "DariusCleave:Q",
+                        ChampionName = "Darius",
+                        SpellName = "DariusCleave",
+                        Slot = SpellSlot.Q,
+                        Delay = 750,
+                        Range = 0,
+                        Radius = 425,
+                        MissileSpeed = 0,
+                        DangerValue = 3,
+                        MissileSpellName = "DariusCleave"
+                    }
+                },
+                new CircularMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "DariusAXEGrab:E",
+                        ChampionName = "Darius",
+                        SpellName = "DariusAxeGrabCone",
+                        Slot = SpellSlot.E,
+                        Delay = 250,
+                        Range = 550,
+                        Radius = 50,
+                        MissileSpeed = 0,
+                        DangerValue = 3,
+                        MissileSpellName = "DariusAxeGrabCone"
+                    }
+                },
                 //new CircularMissileSkillshot //Unknown:SpellType.Arc
                 //{
                 //    SpellData = new SpellData
