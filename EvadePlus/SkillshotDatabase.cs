@@ -1869,7 +1869,24 @@ namespace YasuoBuddy.EvadePlus
                         IsDangerous = false,
                         MissileSpellName = "TormentedSoil"
                     }
-                },                
+                }, 
+                new CircularMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "Powder",
+                        ChampionName = "Gangplank",
+                        SpellName = "GangplankE",
+                        Slot = SpellSlot.W,
+                        Delay = 400,
+                        Range = 1100,
+                        Radius = 300,
+                        MissileSpeed = 0,
+                        DangerValue = 2,
+                        IsDangerous = false,
+                        MissileSpellName = "GangplankE"
+                    }
+                },
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
