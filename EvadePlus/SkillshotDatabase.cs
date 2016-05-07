@@ -539,14 +539,14 @@ namespace YasuoBuddy.EvadePlus
                     {
                         DisplayName = "DariusCleave:Q",
                         ChampionName = "Darius",
-                        SpellName = "RumbleDangerZone",
+                        SpellName = "DariusCleave",
                         Slot = SpellSlot.Q,
-                        Delay = 750,
+                        Delay = 100,
                         Range = 0,
-                        Radius = 425,
+                        Radius = 600,
                         MissileSpeed = 0,
                         DangerValue = 3,
-                        MissileSpellName = "RumbleDangerZone"
+                        MissileSpellName = "DariusCleave"
                     }
                 },
                 new CircularMissileSkillshot
