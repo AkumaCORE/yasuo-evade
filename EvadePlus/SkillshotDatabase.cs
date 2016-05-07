@@ -775,6 +775,40 @@ namespace YasuoBuddy.EvadePlus
                 {
                     SpellData = new SpellData
                     {
+                        DisplayName = "Fiora:W",
+                        ChampionName = "Fiora",
+                        SpellName = "FioraW",
+                        Slot = SpellSlot.W,
+                        Delay = 500,
+                        Range = 750,
+                        Radius = 70,
+                        MissileSpeed = 3200,
+                        DangerValue = 2,
+                        IsDangerous = true,
+                        MissileSpellName = "FioraWMissile"
+                    }
+                },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "FizzPiercingStrike",
+                        ChampionName = "Fizz",
+                        SpellName = "FizzPiercingStrike",
+                        Slot = SpellSlot.Q,
+                        Delay = 150,
+                        Range = 550,
+                        Radius = 150,
+                        MissileSpeed = 1400,
+                        DangerValue = 2,
+                        IsDangerous = true,
+                        MissileSpellName = "FizzPiercingStrike"
+                    }
+                },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
                         DisplayName = "Chum the Waters",
                         ChampionName = "Fizz",
                         SpellName = "FizzMarinerDoom",
