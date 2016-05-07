@@ -539,7 +539,7 @@ namespace YasuoBuddy.EvadePlus
                     {
                         DisplayName = "DariusCleave:Q",
                         ChampionName = "Darius",
-                        SpellName = "DariusCleave",
+                        SpellName = "RumbleDangerZone",
                         Slot = SpellSlot.Q,
                         Delay = 750,
                         Range = 0,
