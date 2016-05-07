@@ -184,27 +184,28 @@ namespace YasuoBuddy.EvadePlus
                         MissileSpellName = "FlashFrostSpell"
                     }
                 },
-                //new CircularMissileSkillshot
-                //{
-                //    SpellData = new SpellData
-                //    {
-                //        ChampionName = "Annie",
-                //        SpellName = "Incinerate",
-                //        Slot = SpellSlot.W,
-                //        Delay = 250,
-                //        Range = 625,
-                //        Radius = 80,
-                //        MissileSpeed = 0,
-                //        DangerValue = 2,
-                //        IsDangerous = false,
-                //        MissileSpellName = "Incinerate"
-                //    }
-                //},
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
                     {
-                        DisplayName = "Summon: Tibbers",
+                        DisplayName = "Incinerate:W",
+                        ChampionName = "Annie",
+                        SpellName = "Incinerate",
+                        Slot = SpellSlot.W,
+                        Delay = 250,
+                        Range = 625,
+                        Radius = 80,
+                        MissileSpeed = 0,
+                        DangerValue = 2,
+                        IsDangerous = false,
+                        MissileSpellName = "Incinerate"
+                    }
+                },
+                new CircularMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "Summo: Tibnbers",
                         ChampionName = "Annie",
                         SpellName = "InfernalGuardian",
                         Slot = SpellSlot.R,
