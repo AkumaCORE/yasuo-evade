@@ -555,7 +555,7 @@ namespace YasuoBuddy.EvadePlus
                     {
                         DisplayName = "DariusAXEGrab:E",
                         ChampionName = "Darius",
-                        SpellName = "Apprehend",
+                        SpellName = "DariusAxeGrabCone",
                         Slot = SpellSlot.E,
                         Delay = 250,
                         Range = 550,
