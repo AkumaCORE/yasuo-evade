@@ -539,11 +539,11 @@ namespace YasuoBuddy.EvadePlus
                     {
                         DisplayName = "DariusCleave:Q",
                         ChampionName = "Darius",
-                        SpellName = "DariusCleave",
+                        SpellName = "Decimate",
                         Slot = SpellSlot.Q,
-                        Delay = 100,
+                        Delay = 230,
                         Range = 0,
-                        Radius = 600,
+                        Radius = 500,
                         MissileSpeed = 0,
                         DangerValue = 3,
                         MissileSpellName = "DariusCleave"
