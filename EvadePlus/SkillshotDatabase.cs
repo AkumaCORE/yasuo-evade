@@ -565,21 +565,21 @@ namespace YasuoBuddy.EvadePlus
                         MissileSpellName = "DariusAxeGrabCone"
                     }
                 },
-                //new CircularMissileSkillshot //Unknown:SpellType.Arc
-                //{
-                //    SpellData = new SpellData
-                //    {
-                //        ChampionName = "Diana",
-                //        SpellName = "DianaArc",
-                //        Slot = SpellSlot.Q,
-                //        Delay = 250,
-                //        Range = 850,
-                //        Radius = 50,
-                //        MissileSpeed = 1400,
-                //        DangerValue = 3,
-                //        MissileSpellName = "DianaArc"
-                //    }
-                //},
+                new LinearMissileSkillshot 
+                {
+                    SpellData = new SpellData
+                    {
+                        ChampionName = "Diana",
+                        SpellName = "DianaArc",
+                        Slot = SpellSlot.Q,
+                        Delay = 250,
+                        Range = 850,
+                        Radius = 120,
+                        MissileSpeed = 1400,
+                        DangerValue = 3,
+                        MissileSpellName = "DianaArc"
+                    }
+                },
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
