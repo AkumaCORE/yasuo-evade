@@ -94,13 +94,18 @@ namespace YasuoBuddy
             }
 
             var unit = target.GetClosestEUnit();
-            if (Yasuo.HarassMenu["harass.E"].Cast<CheckBox>().CurrentValue && unit != null && TargetSelector.SelectedTarget == target && (!unit.GetDashPos().IsUnderTower()))
+            if (Yasuo.HarassMenu["harass.E"].Cast<CheckBox>().CurrentValue && unit != null && TargetSelector.SelectedTarget == target && (!unit.GetDashPos().IsUnderTower())&& unit.Distance(Player.Instance) > Player.Instance.GetAutoAttackRange(target))
             {
-                SpellManager.E.Cast(target);
                 SpellManager.E.Cast(unit);
             }
             if (Player.Instance.HasWhirlwind()) return;
             if (Yasuo.HarassMenu["harass.stack"].Cast<CheckBox>().CurrentValue) SpellManager.StackQ();
+            if (Yasuo.HarassMenu["harass.E"].Cast<CheckBox>().CurrentValue && target != null && TargetSelector.SelectedTarget == target && (!target.GetDashPos().IsUnderTower()))
+            {
+                SpellManager.E.Cast(target);
+            }
+            
+            
         }
 
         public static void Flee()
