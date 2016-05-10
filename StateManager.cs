@@ -94,7 +94,7 @@ namespace YasuoBuddy
             }
 
             var unit = target.GetClosestEUnit();
-            if (Yasuo.HarassMenu["harass.E"].Cast<CheckBox>().CurrentValue && unit != null && unit.GetDashPos().Distance(target) < Player.Instance.Distance(target) && (!unit.GetDashPos().IsUnderTower()))
+            if (Yasuo.HarassMenu["harass.E"].Cast<CheckBox>().CurrentValue && unit != null && unit.GetDashPos().Distance(target) < Player.Instance.Distance(target) || a.HealthPercent > 35 < 20  && (!unit.GetDashPos().IsUnderTower()))
             {
                 SpellManager.E.Cast(unit);
             }
