@@ -59,7 +59,7 @@ namespace YasuoBuddy.TargetedSpells
                 new TargetSpellData("Gangplank", "Parrrley", SpellSlot.Q),
                 new TargetSpellData("Jhin", "DancingGrenade", SpellSlot.Q),
                 new TargetSpellData("Kindred", "MountingDread", SpellSlot.E),
-                new TargetSpellData("MissFortune", "missfortunericochetshot", SpellSlot.Q),
+                new TargetSpellData("MissFortune", "MountingDread", SpellSlot.Q),
                 new TargetSpellData("Ryze", "Spell Flux", SpellSlot.E),
         };
             }
