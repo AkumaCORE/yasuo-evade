@@ -635,7 +635,7 @@ namespace YasuoBuddy.EvadePlus
                         MissileSpellName = "MissileBarrageMissile"
                     }
                 },
-                new LinearMissileSkillshot
+                new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
                     {
@@ -644,8 +644,8 @@ namespace YasuoBuddy.EvadePlus
                         SpellName = "DariusCleave",
                         Slot = SpellSlot.Q,
                         Delay = 500,
-                        Range = 600,
-                        Radius = 180,
+                        Range = 200,
+                        Radius = 400,
                         MissileSpeed = 1500,
                         DangerValue = 3,
                         MissileSpellName = "DariusCleave"
