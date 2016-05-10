@@ -31,6 +31,40 @@ namespace YasuoBuddy.EvadePlus
                         ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
                     }
                 },
+                new CircularMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "Maokai sapling",
+                        ChampionName = "Maokai",
+                        SpellName = ""maokaisapling2",
+                        Slot = SpellSlot.Q,
+                        Delay = 250,
+                        Range = 1100,
+                        Radius = 250,
+                        MissileSpeed = 1200,
+                        DangerValue = 3,
+                        IsDangerous = true,
+                        MissileSpellName = ""maokaisapling2"
+                    }
+                },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "maokaitrunkline:Q",
+                        ChampionName = "Maokai",
+                        SpellName = "maokaitrunkline",
+                        Slot = SpellSlot.Q,
+                        Delay = 250,
+                        Range = 600,
+                        Radius = 73,
+                        MissileSpeed = 1200,
+                        DangerValue = 3,
+                        IsDangerous = false,
+                        MissileSpellName = "maokaitrunklinemissile"
+                    }
+                },
                 new LinearMissileSkillshot
                 {
                     SpellData = new SpellData
