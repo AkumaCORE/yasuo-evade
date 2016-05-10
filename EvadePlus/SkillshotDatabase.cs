@@ -35,6 +35,40 @@ namespace YasuoBuddy.EvadePlus
                 {
                     SpellData = new SpellData
                     {
+                        DisplayName = "missfortunescattershot",
+                        ChampionName = "MissFortune",
+                        SpellName = "missfortunescattershot",
+                        Slot = SpellSlot.E,
+                        Delay = 500,
+                        Range = 1000,
+                        Radius = 250,
+                        MissileSpeed = 500,
+                        DangerValue = 2,
+                        IsDangerous = false,
+                        MissileSpellName = "missfortunescattershot"
+                    }
+                },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "BulletTime",
+                        ChampionName = "MissFortune",
+                        SpellName = "MissFortuneBulletTime",
+                        Slot = SpellSlot.R,
+                        Delay = 500,
+                        Range = 1400,
+                        Radius = 250,
+                        MissileSpeed = 775,
+                        DangerValue = 2,
+                        IsDangerous = false,
+                        MissileSpellName = "MissFortuneBulletTime"
+                    }
+                },
+                new CircularMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
                         DisplayName = "Maokai sapling",
                         ChampionName = "Maokai",
                         SpellName = "maokaisapling2",
