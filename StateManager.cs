@@ -96,6 +96,7 @@ namespace YasuoBuddy
             var unit = target.GetClosestEUnit();
             if (Yasuo.HarassMenu["harass.E"].Cast<CheckBox>().CurrentValue && unit != null && TargetSelector.SelectedTarget == target && (!unit.GetDashPos().IsUnderTower()))
             {
+                SpellManager.E.Cast(target);
                 SpellManager.E.Cast(unit);
             }
             if (Player.Instance.HasWhirlwind()) return;
