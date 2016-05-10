@@ -45,7 +45,7 @@ namespace YasuoBuddy.EvadePlus
                         MissileSpeed = 1200,
                         DangerValue = 3,
                         IsDangerous = true,
-                        MissileSpellName = ""maokaisapling2"
+                        MissileSpellName = "maokaisapling2"
                     }
                 },
                 new LinearMissileSkillshot
