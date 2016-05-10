@@ -31,6 +31,40 @@ namespace YasuoBuddy.EvadePlus
                         ToggleParticleName = "Summoner_Snowball_Explosion_Sound.troy"
                     }
                 },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "AurelionSolQ",
+                        ChampionName = "AurelionSol",
+                        SpellName = "AurelionSolQ",
+                        Slot = SpellSlot.Q,
+                        Delay = 250,
+                        Range = 1500,
+                        Radius = 180,
+                        MissileSpeed = 850,
+                        DangerValue = 3,
+                        IsDangerous = false,
+                        MissileSpellName = "AurelionSolQMissile"
+                    }
+                },
+                new LinearMissileSkillshot
+                {
+                    SpellData = new SpellData
+                    {
+                        DisplayName = "AurelionSolRBeam",
+                        ChampionName = "AurelionSol",
+                        SpellName = "AurelionSolR",
+                        Slot = SpellSlot.E,
+                        Delay = 300,
+                        Range = 1420,
+                        Radius = 120,
+                        MissileSpeed = 4600,
+                        DangerValue = 3,
+                        IsDangerous = false,
+                        MissileSpellName = "AurelionSolRBeamMissile"
+                    }
+                },
                 new CircularMissileSkillshot
                 {
                     SpellData = new SpellData
@@ -2615,7 +2649,7 @@ namespace YasuoBuddy.EvadePlus
                         Delay = 250,
                         Range = 950,
                         Radius = 70,
-                        MissileSpeed = 2000,
+                        MissileSpeed = 1750,
                         DangerValue = 2,
                         IsDangerous = false,
                         MissileSpellName = "VeigarBalefulStrikeMis"
@@ -2647,7 +2681,7 @@ namespace YasuoBuddy.EvadePlus
                         Slot = SpellSlot.E,
                         Delay = 500,
                         Range = 700,
-                        Radius = 425,
+                        Radius = 430,
                         MissileSpeed = 0,
                         DangerValue = 3,
                         MissileSpellName = "VeigarEventHorizon"
