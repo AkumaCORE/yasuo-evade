@@ -644,9 +644,9 @@ namespace YasuoBuddy.EvadePlus
                         SpellName = "DariusCleave",
                         Slot = SpellSlot.Q,
                         Delay = 500,
-                        Range = 0,
+                        Range = 600,
                         Radius = 180,
-                        MissileSpeed = 0,
+                        MissileSpeed = 1500,
                         DangerValue = 3,
                         MissileSpellName = "DariusCleave"
                     }
@@ -660,8 +660,8 @@ namespace YasuoBuddy.EvadePlus
                         SpellName = "DariusAxeGrabCone",
                         Slot = SpellSlot.E,
                         Delay = 500,
-                        Range = 540,
-                        Radius = 120,
+                        Range = 600,
+                        Radius = 180,
                         MissileSpeed = 1500,
                         DangerValue = 3,
                         MissileSpellName = "DariusAxeGrabCone"
