@@ -37,7 +37,7 @@ namespace YasuoBuddy.EvadePlus
                     {
                         DisplayName = "Maokai sapling",
                         ChampionName = "Maokai",
-                        SpellName = ""maokaisapling2",
+                        SpellName = "maokaisapling2",
                         Slot = SpellSlot.E,
                         Delay = 250,
                         Range = 1100,
