@@ -178,7 +178,7 @@ namespace YasuoBuddy
                 SpellManager.E.Cast(minion);
                 return;
             }
-            if (Yasuo.FarmMenu["LH.Q"].Cast<CheckBox>().CurrentValue && SpellManager.Q.IsReady() && DamageHandler.QDamage(minion) > minion.Health)
+            if ((!Player.Instance.HasWhirlwind()) && Yasuo.FarmMenu["LH.Q"].Cast<CheckBox>().CurrentValue && SpellManager.Q.IsReady() && DamageHandler.QDamage(minion) > minion.Health)
             {
                 SpellManager.Q.Cast(minion);
             }
