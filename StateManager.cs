@@ -102,7 +102,7 @@ namespace YasuoBuddy
             {
                 SpellManager.E.Cast(unit);
             }
-            if (Player.Instance.HasWhirlwind()) return;
+            if (Player.Instance.HasWhirlwind() || Player.Instance.Distance(target) < 700) return;
             if (Yasuo.HarassMenu["harass.stack"].Cast<CheckBox>().CurrentValue && !Player.Instance.IsDashing()) SpellManager.StackQ();
 
             
