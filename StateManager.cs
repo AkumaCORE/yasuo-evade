@@ -98,7 +98,7 @@ namespace YasuoBuddy
             {
                 SpellManager.E.Cast(target);
             }
-            if (Yasuo.HarassMenu["harass.E"].Cast<CheckBox>().CurrentValue && unit != null && TargetSelector.SelectedTarget == target && (!unit.GetDashPos().IsUnderTower())&& unit.Distance(Player.Instance) > Player.Instance.GetAutoAttackRange(target))
+            if (Yasuo.HarassMenu["harass.E"].Cast<CheckBox>().CurrentValue && unit != null && TargetSelector.SelectedTarget == target && (!unit.GetDashPos().IsUnderTower())&& unit.Distance(Player.Instance) > Player.Instance.GetAutoAttackRange(target) + 100)
             {
                 SpellManager.E.Cast(unit);
             }
