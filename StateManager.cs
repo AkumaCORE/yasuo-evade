@@ -103,7 +103,7 @@ namespace YasuoBuddy
                 SpellManager.E.Cast(unit);
             }
             if (Player.Instance.HasWhirlwind()) return;
-            if (Yasuo.HarassMenu["harass.stack"].Cast<CheckBox>().CurrentValue && (unit.GetDashPos().Distance(target) + 300 < Player.Instance.Distance(target))) SpellManager.StackQ();
+            if (Yasuo.HarassMenu["harass.stack"].Cast<CheckBox>().CurrentValue && (unit.GetDashPos().Distance(target) + 500 < Player.Instance.Distance(target))) SpellManager.StackQ();
 
             
             
