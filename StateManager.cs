@@ -72,7 +72,7 @@ namespace YasuoBuddy
 
         public static void Harass()
         {
-            var target = TargetSelector.SeletedEnabled && TargetSelector.SelectedTarget != null && TargetSelector.SelectedTarget.IsValidTarget(1375)
+            var target = TargetSelector.SeletedEnabled && TargetSelector.SelectedTarget != null && TargetSelector.SelectedTarget.IsValidTarget(1700)
                     ? TargetSelector.SelectedTarget
                     : TargetSelector.GetTarget(SpellManager.Q.Range + 475 + 100, DamageType.Physical);
             if (target == null) return;
