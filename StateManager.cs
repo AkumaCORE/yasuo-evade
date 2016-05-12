@@ -74,14 +74,14 @@ namespace YasuoBuddy
         {
             var target = TargetSelector.SeletedEnabled && TargetSelector.SelectedTarget != null && TargetSelector.SelectedTarget.IsValidTarget(1700)
                     ? TargetSelector.SelectedTarget
-                    : TargetSelector.GetTarget(SpellManager.Q.Range + 475 + 100, DamageType.Physical);
+                    : TargetSelector.GetTarget(SpellManager.Q.Range + 475 + 400, DamageType.Physical);
             if (target == null) return;
             if (target.IsValidTarget(SpellManager.Q.Range) && Yasuo.HarassMenu["harass.Q"].Cast<CheckBox>().CurrentValue)
             {
                 if (Player.Instance.IsDashing())
                 {
                     var pos = DashingManager.GetPlayerPosition(300);
-                    if (SpellManager.Q.IsReady() && (target.Distance(pos) < 400))
+                    if (SpellManager.Q.IsReady() && (target.Distance(pos) < 300))
                     {
                         Player.CastSpell(SpellSlot.Q);
                     }
