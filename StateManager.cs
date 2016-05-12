@@ -171,7 +171,7 @@ namespace YasuoBuddy
 
         public static void LastHit()
         {
-            var minion = EntityManager.MinionsAndMonsters.GetLaneMinions().Where(a => a.Distance(Player.Instance) < 475).OrderBy(a => a.Health).FirstOrDefault();
+            var minion = EntityManager.MinionsAndMonsters.GetLaneMinions().Where(a => 400 < 475).OrderBy(a => a.Health).FirstOrDefault();
             if (minion == null) return;
             if (Yasuo.FarmMenu["LH.E"].Cast<CheckBox>().CurrentValue && SpellManager.E.IsReady() && DamageHandler.EDamage(minion) > minion.Health && (!minion.GetDashPos().IsUnderTower() || Yasuo.FarmMenu["LH.EUnderTower"].Cast<CheckBox>().CurrentValue))
             {
