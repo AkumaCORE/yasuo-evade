@@ -182,7 +182,7 @@ namespace YasuoBuddy
             {
                 SpellManager.Q.Cast(minion);
             }
-            var minion2 = EntityManager.MinionsAndMonsters.GetLaneMinions().Where(a > 600 < 1100).OrderBy(a => a.Health).FirstOrDefault();
+            var minion2 = EntityManager.MinionsAndMonsters.GetLaneMinions().Where(a => 600 < 1100).OrderBy(a => a.Health).FirstOrDefault();
             if (minion2 == null) return;
             
             if ((Player.Instance.HasWhirlwind()) && Yasuo.FarmMenu["LH.Q"].Cast<CheckBox>().CurrentValue && SpellManager.Q.IsReady() && DamageHandler.QDamage(minion2) > minion2.Health)
